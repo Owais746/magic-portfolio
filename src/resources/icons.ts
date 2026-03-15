@@ -12,6 +12,13 @@ import {
   HiOutlineDocument,
   HiOutlineGlobeAsiaAustralia,
   HiOutlineRocketLaunch,
+  HiOutlineCodeBracket,
+  HiOutlineViewColumns,
+  HiOutlinePencilSquare,
+  HiOutlineChatBubbleBottomCenterText,
+  HiOutlineMagnifyingGlass,
+  HiOutlineCog6Tooth,
+  HiOutlineCommandLine,
 } from "react-icons/hi2";
 
 import {
@@ -64,6 +71,13 @@ export const iconLibrary: Record<string, IconType> = {
   reddit: FaReddit,
   telegram: FaTelegram,
   instagram: FaInstagram,
+  code: HiOutlineCodeBracket,
+  layout: HiOutlineViewColumns,
+  penTool: HiOutlinePencilSquare,
+  chatBubble: HiOutlineChatBubbleBottomCenterText,
+  search: HiOutlineMagnifyingGlass,
+  settings: HiOutlineCog6Tooth,
+  terminal: HiOutlineCommandLine,
 };
 
 export type IconLibrary = typeof iconLibrary;

@@ -5,9 +5,9 @@ export {
   newsletter,
   home,
   about,
-  blog,
+  resume,
   work,
-  gallery,
+  services,
 } from "./content";
 
 export {
